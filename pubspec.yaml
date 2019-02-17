@@ -1,0 +1,654 @@
+name: testingzone
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+  spritewidget: ^0.9.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+  - assets/d96.png
+  - assets/d82.png
+  - assets/d210.png
+  - assets/d576.png
+  - assets/d55.png
+  - assets/d562.png
+  - assets/d41.png
+  - assets/d204.png
+  - assets/d69.png
+  - assets/d238.png
+  - assets/d199.png
+  - assets/d166.png
+  - assets/d172.png
+  - assets/d364.png
+  - assets/d402.png
+  - assets/d416.png
+  - assets/d370.png
+  - assets/d358.png
+  - assets/d359.png
+  - assets/d417.png
+  - assets/d371.png
+  - assets/d365.png
+  - assets/d403.png
+  - assets/d173.png
+  - assets/d167.png
+  - assets/d198.png
+  - assets/d239.png
+  - assets/d68.png
+  - assets/d40.png
+  - assets/d563.png
+  - assets/d205.png
+  - assets/d211.png
+  - assets/d54.png
+  - assets/d83.png
+  - assets/d97.png
+  - assets/d81.png
+  - assets/d95.png
+  - assets/d207.png
+  - assets/d561.png
+  - assets/d42.png
+  - assets/d575.png
+  - assets/d56.png
+  - assets/d213.png
+  - assets/d549.png
+  - assets/d171.png
+  - assets/d165.png
+  - assets/d159.png
+  - assets/d398.png
+  - assets/d373.png
+  - assets/d415.png
+  - assets/d401.png
+  - assets/d367.png
+  - assets/d429.png
+  - assets/d428.png
+  - assets/d400.png
+  - assets/d366.png
+  - assets/d372.png
+  - assets/d414.png
+  - assets/d399.png
+  - assets/d158.png
+  - assets/d164.png
+  - assets/d170.png
+  - assets/d548.png
+  - assets/d57.png
+  - assets/d574.png
+  - assets/d212.png
+  - assets/d206.png
+  - assets/d43.png
+  - assets/d560.png
+  - assets/d94.png
+  - assets/d80.png
+  - assets/d84.png
+  - assets/d90.png
+  - assets/d558.png
+  - assets/d564.png
+  - assets/d47.png
+  - assets/d202.png
+  - assets/d216.png
+  - assets/d570.png
+  - assets/d53.png
+  - assets/d148.png
+  - assets/d174.png
+  - assets/d160.png
+  - assets/d389.png
+  - assets/d438.png
+  - assets/d410.png
+  - assets/d376.png
+  - assets/d362.png
+  - assets/d404.png
+  - assets/d363.png
+  - assets/d405.png
+  - assets/d411.png
+  - assets/d377.png
+  - assets/d439.png
+  - assets/d388.png
+  - assets/d161.png
+  - assets/d175.png
+  - assets/d149.png
+  - assets/d217.png
+  - assets/d52.png
+  - assets/d571.png
+  - assets/d46.png
+  - assets/d565.png
+  - assets/d203.png
+  - assets/d559.png
+  - assets/d91.png
+  - assets/d85.png
+  - assets/d93.png
+  - assets/d87.png
+  - assets/d229.png
+  - assets/d78.png
+  - assets/d573.png
+  - assets/d50.png
+  - assets/d215.png
+  - assets/d201.png
+  - assets/d567.png
+  - assets/d44.png
+  - assets/d188.png
+  - assets/d163.png
+  - assets/d177.png
+  - assets/d349.png
+  - assets/d407.png
+  - assets/d361.png
+  - assets/d375.png
+  - assets/d413.png
+  - assets/d374.png
+  - assets/d412.png
+  - assets/d406.png
+  - assets/d360.png
+  - assets/d348.png
+  - assets/d176.png
+  - assets/d162.png
+  - assets/d189.png
+  - assets/d200.png
+  - assets/d45.png
+  - assets/d566.png
+  - assets/d51.png
+  - assets/d572.png
+  - assets/d214.png
+  - assets/d79.png
+  - assets/d228.png
+  - assets/d86.png
+  - assets/d92.png
+  - assets/d298.png
+  - assets/d515.png
+  - assets/d36.png
+  - assets/d273.png
+  - assets/d267.png
+  - assets/d501.png
+  - assets/d22.png
+  - assets/d529.png
+  - assets/d105.png
+  - assets/d111.png
+  - assets/d139.png
+  - assets/d461.png
+  - assets/d307.png
+  - assets/d313.png
+  - assets/d475.png
+  - assets/d449.png
+  - assets/d448.png
+  - assets/d312.png
+  - assets/d474.png
+  - assets/d460.png
+  - assets/d306.png
+  - assets/d138.png
+  - assets/d110.png
+  - assets/d104.png
+  - assets/d528.png
+  - assets/d266.png
+  - assets/d23.png
+  - assets/d500.png
+  - assets/d37.png
+  - assets/d514.png
+  - assets/d272.png
+  - assets/d299.png
+  - assets/d502.png
+  - assets/d21.png
+  - assets/d264.png
+  - assets/d270.png
+  - assets/d516.png
+  - assets/d35.png
+  - assets/d258.png
+  - assets/d112.png
+  - assets/d106.png
+  - assets/d489.png
+  - assets/d476.png
+  - assets/d310.png
+  - assets/d304.png
+  - assets/d462.png
+  - assets/d338.png
+  - assets/d339.png
+  - assets/d305.png
+  - assets/d463.png
+  - assets/d477.png
+  - assets/d311.png
+  - assets/d488.png
+  - assets/d107.png
+  - assets/d113.png
+  - assets/d259.png
+  - assets/d271.png
+  - assets/d34.png
+  - assets/d517.png
+  - assets/d20.png
+  - assets/d503.png
+  - assets/d265.png
+  - assets/d18.png
+  - assets/d249.png
+  - assets/d261.png
+  - assets/d507.png
+  - assets/d24.png
+  - assets/d513.png
+  - assets/d30.png
+  - assets/d275.png
+  - assets/d9.png
+  - assets/d117.png
+  - assets/d103.png
+  - assets/d498.png
+  - assets/d329.png
+  - assets/d315.png
+  - assets/d473.png
+  - assets/d467.png
+  - assets/d301.png
+  - assets/d466.png
+  - assets/d300.png
+  - assets/d314.png
+  - assets/d472.png
+  - assets/d328.png
+  - assets/d499.png
+  - assets/d102.png
+  - assets/d116.png
+  - assets/d8.png
+  - assets/d31.png
+  - assets/d512.png
+  - assets/d274.png
+  - assets/d260.png
+  - assets/d25.png
+  - assets/d506.png
+  - assets/d248.png
+  - assets/d19.png
+  - assets/d289.png
+  - assets/d538.png
+  - assets/d276.png
+  - assets/d510.png
+  - assets/d33.png
+  - assets/d504.png
+  - assets/d27.png
+  - assets/d262.png
+  - assets/d128.png
+  - assets/d100.png
+  - assets/d114.png
+  - assets/d458.png
+  - assets/d302.png
+  - assets/d464.png
+  - assets/d470.png
+  - assets/d316.png
+  - assets/d471.png
+  - assets/d317.png
+  - assets/d303.png
+  - assets/d465.png
+  - assets/d459.png
+  - assets/d115.png
+  - assets/d101.png
+  - assets/d129.png
+  - assets/d26.png
+  - assets/d505.png
+  - assets/d263.png
+  - assets/d277.png
+  - assets/d32.png
+  - assets/d511.png
+  - assets/d539.png
+  - assets/d288.png
+  - assets/d291.png
+  - assets/d285.png
+  - assets/d534.png
+  - assets/d17.png
+  - assets/d252.png
+  - assets/d246.png
+  - assets/d520.png
+  - assets/d508.png
+  - assets/d6.png
+  - assets/d124.png
+  - assets/d130.png
+  - assets/d118.png
+  - assets/d483.png
+  - assets/d497.png
+  - assets/d440.png
+  - assets/d326.png
+  - assets/d332.png
+  - assets/d454.png
+  - assets/d468.png
+  - assets/d469.png
+  - assets/d333.png
+  - assets/d455.png
+  - assets/d441.png
+  - assets/d327.png
+  - assets/d496.png
+  - assets/d482.png
+  - assets/d119.png
+  - assets/d131.png
+  - assets/d125.png
+  - assets/d7.png
+  - assets/d509.png
+  - assets/d247.png
+  - assets/d521.png
+  - assets/d16.png
+  - assets/d535.png
+  - assets/d253.png
+  - assets/d284.png
+  - assets/d290.png
+  - assets/d286.png
+  - assets/d292.png
+  - assets/d523.png
+  - assets/d245.png
+  - assets/d251.png
+  - assets/d537.png
+  - assets/d14.png
+  - assets/d279.png
+  - assets/d28.png
+  - assets/d5.png
+  - assets/d133.png
+  - assets/d127.png
+  - assets/d494.png
+  - assets/d480.png
+  - assets/d457.png
+  - assets/d331.png
+  - assets/d325.png
+  - assets/d443.png
+  - assets/d319.png
+  - assets/d318.png
+  - assets/d324.png
+  - assets/d442.png
+  - assets/d456.png
+  - assets/d330.png
+  - assets/d481.png
+  - assets/d495.png
+  - assets/d126.png
+  - assets/d132.png
+  - assets/d4.png
+  - assets/d29.png
+  - assets/d278.png
+  - assets/d250.png
+  - assets/d15.png
+  - assets/d536.png
+  - assets/d522.png
+  - assets/d244.png
+  - assets/d293.png
+  - assets/d287.png
+  - assets/d283.png
+  - assets/d297.png
+  - assets/d39.png
+  - assets/d268.png
+  - assets/d240.png
+  - assets/d526.png
+  - assets/d532.png
+  - assets/d11.png
+  - assets/d254.png
+  - assets/d136.png
+  - assets/d122.png
+  - assets/d491.png
+  - assets/d485.png
+  - assets/d308.png
+  - assets/d334.png
+  - assets/d452.png
+  - assets/d446.png
+  - assets/d320.png
+  - assets/d447.png
+  - assets/d321.png
+  - assets/d335.png
+  - assets/d453.png
+  - assets/d309.png
+  - assets/d484.png
+  - assets/d490.png
+  - assets/d123.png
+  - assets/d137.png
+  - assets/d1.png
+  - assets/d10.png
+  - assets/d533.png
+  - assets/d255.png
+  - assets/d241.png
+  - assets/d527.png
+  - assets/d269.png
+  - assets/d38.png
+  - assets/d296.png
+  - assets/d282.png
+  - assets/d294.png
+  - assets/d280.png
+  - assets/d519.png
+  - assets/d257.png
+  - assets/d531.png
+  - assets/d12.png
+  - assets/d525.png
+  - assets/d243.png
+  - assets/d3.png
+  - assets/d109.png
+  - assets/d121.png
+  - assets/d135.png
+  - assets/d486.png
+  - assets/d492.png
+  - assets/d479.png
+  - assets/d323.png
+  - assets/d445.png
+  - assets/d451.png
+  - assets/d337.png
+  - assets/d450.png
+  - assets/d336.png
+  - assets/d322.png
+  - assets/d444.png
+  - assets/d478.png
+  - assets/d493.png
+  - assets/d487.png
+  - assets/d134.png
+  - assets/d120.png
+  - assets/d108.png
+  - assets/d2.png
+  - assets/d524.png
+  - assets/d242.png
+  - assets/d256.png
+  - assets/d13.png
+  - assets/d530.png
+  - assets/d518.png
+  - assets/d281.png
+  - assets/d295.png
+  - assets/d231.png
+  - assets/d557.png
+  - assets/d74.png
+  - assets/d543.png
+  - assets/d60.png
+  - assets/d225.png
+  - assets/d48.png
+  - assets/d219.png
+  - assets/d184.png
+  - assets/d190.png
+  - assets/d147.png
+  - assets/d153.png
+  - assets/d386.png
+  - assets/d392.png
+  - assets/d345.png
+  - assets/d423.png
+  - assets/d437.png
+  - assets/d351.png
+  - assets/d379.png
+  - assets/d378.png
+  - assets/d436.png
+  - assets/d350.png
+  - assets/d344.png
+  - assets/d422.png
+  - assets/d393.png
+  - assets/d387.png
+  - assets/d152.png
+  - assets/d146.png
+  - assets/d191.png
+  - assets/d185.png
+  - assets/d218.png
+  - assets/d49.png
+  - assets/d61.png
+  - assets/d542.png
+  - assets/d224.png
+  - assets/d230.png
+  - assets/d75.png
+  - assets/d556.png
+  - assets/d88.png
+  - assets/d226.png
+  - assets/d540.png
+  - assets/d63.png
+  - assets/d554.png
+  - assets/d77.png
+  - assets/d232.png
+  - assets/d568.png
+  - assets/d193.png
+  - assets/d187.png
+  - assets/d150.png
+  - assets/d144.png
+  - assets/d178.png
+  - assets/d391.png
+  - assets/d385.png
+  - assets/d352.png
+  - assets/d434.png
+  - assets/d420.png
+  - assets/d346.png
+  - assets/d408.png
+  - assets/d409.png
+  - assets/d421.png
+  - assets/d347.png
+  - assets/d353.png
+  - assets/d435.png
+  - assets/d384.png
+  - assets/d390.png
+  - assets/d179.png
+  - assets/d145.png
+  - assets/d151.png
+  - assets/d186.png
+  - assets/d192.png
+  - assets/d569.png
+  - assets/d76.png
+  - assets/d555.png
+  - assets/d233.png
+  - assets/d227.png
+  - assets/d62.png
+  - assets/d541.png
+  - assets/d89.png
+  - assets/d99.png
+  - assets/d545.png
+  - assets/d66.png
+  - assets/d223.png
+  - assets/d237.png
+  - assets/d551.png
+  - assets/d72.png
+  - assets/d196.png
+  - assets/d182.png
+  - assets/d169.png
+  - assets/d155.png
+  - assets/d141.png
+  - assets/d394.png
+  - assets/d380.png
+  - assets/d419.png
+  - assets/d431.png
+  - assets/d357.png
+  - assets/d343.png
+  - assets/d425.png
+  - assets/d342.png
+  - assets/d424.png
+  - assets/d430.png
+  - assets/d356.png
+  - assets/d418.png
+  - assets/d381.png
+  - assets/d395.png
+  - assets/d140.png
+  - assets/d154.png
+  - assets/d168.png
+  - assets/d183.png
+  - assets/d197.png
+  - assets/d236.png
+  - assets/d73.png
+  - assets/d550.png
+  - assets/d67.png
+  - assets/d544.png
+  - assets/d222.png
+  - assets/d98.png
+  - assets/d208.png
+  - assets/d59.png
+  - assets/d552.png
+  - assets/d71.png
+  - assets/d234.png
+  - assets/d220.png
+  - assets/d546.png
+  - assets/d65.png
+  - assets/d181.png
+  - assets/d195.png
+  - assets/d142.png
+  - assets/d156.png
+  - assets/d383.png
+  - assets/d397.png
+  - assets/d368.png
+  - assets/d426.png
+  - assets/d340.png
+  - assets/d354.png
+  - assets/d432.png
+  - assets/d355.png
+  - assets/d433.png
+  - assets/d427.png
+  - assets/d341.png
+  - assets/d369.png
+  - assets/d396.png
+  - assets/d382.png
+  - assets/d157.png
+  - assets/d143.png
+  - assets/d194.png
+  - assets/d180.png
+  - assets/d221.png
+  - assets/d64.png
+  - assets/d547.png
+  - assets/d70.png
+  - assets/d553.png
+  - assets/d235.png
+  - assets/d58.png
+  - assets/d209.png
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
